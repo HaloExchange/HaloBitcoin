@@ -1,0 +1,6 @@
+usr/local/bin/halobitcoin-qt usr/bin
+share/pixmaps/halobitcoin32.xpm usr/share/pixmaps
+share/pixmaps/halobitcoin16.xpm usr/share/pixmaps
+share/pixmaps/halobitcoin128.png usr/share/pixmaps
+debian/halobitcoin-qt.desktop usr/share/applications
+debian/halobitcoin-qt.protocol usr/share/kde4/services/

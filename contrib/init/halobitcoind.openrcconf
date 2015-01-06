@@ -1,0 +1,27 @@
+# /etc/conf.d/halobitcoind: config file for /etc/init.d/halobitcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/halobitcoin/halobitcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/halobitcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/halobitcoind.pid"
+
+# Where to write halobitcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/halobitcoind"
+
+# User and group to own halobitcoind process
+#BITCOIND_USER="halobitcoin"
+#BITCOIND_GROUP="halobitcoin"
+
+# Path to halobitcoind executable
+#BITCOIND_BIN="/usr/bin/halobitcoind"
+
+# Nice value to run halobitcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
